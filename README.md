@@ -1,87 +1,69 @@
-# Welcome to React Router!
+# Sharely
 
-A modern, production-ready template for building full-stack React applications using React Router.
+Sharely ist eine moderne Fullstack-Anwendung, inspiriert von Pinterest, die es ermöglicht, Bilder (JPG, PNG) hochzuladen, zu teilen und KI-gestützt zu organisieren. Die Kernfunktion der App ist die Integration der Google Gemini API, welche jedes hochgeladene Bild automatisch analysiert und Metadaten wie Titel, Beschreibung und Tags generiert.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+Die Bilder werden in einem Masonry-Layout angezeigt und können geliked oder gespeichert werden. Über den persönlichen Nutzerbereich lassen sich eigene Bilder, gelikte Bilder und gespeicherte Bilder einsehen.
+Ein dedizierter Detailbereich zeigt pro Bild alle generierten Metadaten übersichtlich an.
 
-## Features
+Die Anwendung bietet vollständige Login- und Registrierungsmöglichkeiten, nutzt Appwrite als Backend und bietet eine moderne, performante Architektur mit SSR, React Router v7, Tailwind CSS 4 und Vite 6.
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
 
-## Getting Started
 
-### Installation
+## Core Framework
 
-Install the dependencies:
+**React 19**
+**React DOM 19**
 
-```bash
-npm install
-```
+## Routing / Server Renderning
 
-### Development
+**react-router v7**
+**react-router/node**
 
-Start the development server with HMR:
+## UI / Styling
 
-```bash
-npm run dev
-```
+**Tailwind CSS 4**
 
-Your application will be available at `http://localhost:5173`.
+## UI-Komponenten
 
-## Building for Production
+**Syncfusion React Komponenten**
 
-Create a production build:
+## KI / GenAI
 
-```bash
-npm run build
-```
+**Google generative AI - Google Gemini API**
 
-## Deployment
+## Backend / API / Auth
 
-### Docker Deployment
+**Appwrite**
+  Auth
+  Datenbank
+  Storage
+  Collections
 
-To build and run using Docker:
+## Monitoring / Logging
 
-```bash
-docker build -t my-app .
+**Sentry**
+  Fehlertracking
+  Performance Monitoring
+  Profiling
 
-# Run the container
-docker run -p 3000:3000 my-app
-```
+## Developer Tooling
 
-The containerized application can be deployed to any platform that supports Docker, including:
+**TypeScript 5.8**
+**Vite 6**
 
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
+## TL:DR
 
-### DIY Deployment
+React 19 • React Router v7 (Full-Stack) • TypeScript • Vite 6 • Tailwind 4 • Appwrite Backend
+Syncfusion Komponenten • Masonry/Grid Layout • Sentry Monitoring
+Google Generative AI Integration • SSR • Docker-ready
 
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
 
-Make sure to deploy the output of `npm run build`
 
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
 
-## Styling
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
 
----
 
-Built with ❤️ using React Router.
+
+
+
+
